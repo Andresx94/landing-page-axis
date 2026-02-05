@@ -3,18 +3,18 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "01",
-    title: "Conecta",
-    description: "Integra tu negocio en minutos. Sin configuraciones complejas ni largas implementaciones.",
+    title: "Conecta tu negocio",
+    description: "Configura tus productos, sucursales y usuarios. Sin implementaciones largas ni capacitaciones extensas.",
   },
   {
     number: "02",
-    title: "Configura",
-    description: "Personaliza permisos, flujos y alertas según las necesidades específicas de tu operación.",
+    title: "Personaliza tu sistema",
+    description: "Ajusta roles, permisos y la identidad visual. AXIS se adapta a cómo trabajas, no al revés.",
   },
   {
     number: "03",
-    title: "Controla",
-    description: "Gestiona todo desde un panel centralizado con visibilidad total y control absoluto.",
+    title: "Opera con claridad",
+    description: "Ventas, inventario y operaciones centralizadas. Información precisa para decisiones informadas.",
   },
 ];
 
@@ -33,7 +33,7 @@ const HowItWorks = () => {
             Cómo funciona
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium">
-            Tres pasos hacia el <span className="text-gradient-gold">control total</span>
+            De una tienda a varias, <span className="text-gradient-gold">sin complicaciones</span>
           </h2>
         </motion.div>
 

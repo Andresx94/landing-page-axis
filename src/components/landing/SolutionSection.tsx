@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
 const benefits = [
-  "Interfaz intuitiva que cualquier miembro de tu equipo puede dominar",
-  "Panel de control centralizado con métricas en tiempo real",
-  "Automatización inteligente de tareas repetitivas",
-  "Integración perfecta con tus herramientas existentes",
+  "Productos compuestos con consumo automático de componentes",
+  "Sucursales y almacén central sincronizados en tiempo real",
+  "Control de accesos por rol: administrador, ventas, bodega",
+  "Marca blanca que refleja tu identidad, no la nuestra",
 ];
 
 const SolutionSection = () => {
@@ -27,13 +27,13 @@ const SolutionSection = () => {
               La solución
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-medium mb-6">
-              Simplifica.
+              Claridad.
               <br />
-              <span className="text-gradient-gold">Controla. Crece.</span>
+              <span className="text-gradient-gold">Control. Propiedad.</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Una plataforma que transforma la complejidad en claridad. 
-              Diseñada para líderes que valoran tanto la eficiencia como la elegancia.
+              AXIS integra ventas, inventario, clientes y gastos en una plataforma 
+              que entiende la complejidad de tu operación y la presenta con simplicidad.
             </p>
 
             <ul className="space-y-4">
@@ -71,7 +71,7 @@ const SolutionSection = () => {
               {/* Central element */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-32 rounded-2xl bg-gradient-gold flex items-center justify-center shadow-gold animate-float">
-                  <span className="font-serif text-4xl font-bold text-primary-foreground">V</span>
+                  <span className="font-serif text-4xl font-bold text-primary-foreground">A</span>
                 </div>
               </div>
 

@@ -4,18 +4,18 @@ import { X, AlertTriangle, Clock } from "lucide-react";
 const problems = [
   {
     icon: X,
-    title: "Interfaces confusas",
-    description: "Sistemas complicados que requieren horas de capacitación y generan errores costosos.",
+    title: "Sistemas genéricos",
+    description: "Plataformas rígidas que no reflejan tu marca ni entienden cómo opera tu negocio realmente.",
   },
   {
     icon: AlertTriangle,
-    title: "Falta de control",
-    description: "Sin visibilidad real sobre quién accede a qué, ni capacidad de auditoría efectiva.",
+    title: "Inventario inexacto",
+    description: "Herramientas que descuentan ítems sin considerar componentes, fórmulas o consumo real.",
   },
   {
     icon: Clock,
-    title: "Procesos lentos",
-    description: "Tareas que deberían tomar segundos consumen minutos valiosos de tu equipo.",
+    title: "Crecimiento limitado",
+    description: "Soluciones que funcionan para una tienda pero colapsan cuando abres la segunda.",
   },
 ];
 
@@ -44,8 +44,8 @@ const ProblemSection = () => {
             El problema
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium mb-6">
-            La realidad de la gestión <br className="hidden md:block" />
-            <span className="text-muted-foreground">empresarial tradicional</span>
+            La gestión operativa <br className="hidden md:block" />
+            <span className="text-muted-foreground">no debería ser así</span>
           </h2>
         </motion.div>
 

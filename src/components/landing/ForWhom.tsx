@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
-import { Building2, UserCog, Users } from "lucide-react";
+import { Store, UserCog, Users } from "lucide-react";
 
 const audiences = [
   {
-    icon: Building2,
-    title: "Negocios",
-    description: "Empresas que buscan profesionalizar su gestión sin perder agilidad.",
+    icon: Store,
+    title: "Retail y Perfumerías",
+    description: "Negocios con productos compuestos, variantes y necesidad de control preciso de inventario.",
   },
   {
     icon: UserCog,
-    title: "Administradores",
-    description: "Líderes que necesitan visibilidad completa y control centralizado.",
+    title: "Dueños y Administradores",
+    description: "Visibilidad completa de la operación, desde ventas hasta gastos, en un solo lugar.",
   },
   {
     icon: Users,
-    title: "Operadores",
-    description: "Equipos que requieren herramientas intuitivas para su día a día.",
+    title: "Equipos de Ventas",
+    description: "Interfaz clara para el día a día. Sin curvas de aprendizaje ni procesos complicados.",
   },
 ];
 
@@ -31,10 +31,10 @@ const ForWhom = () => {
           className="text-center mb-20"
         >
           <span className="text-primary text-sm font-medium tracking-wider uppercase mb-4 block">
-            Para quién es
+            Para quién es AXIS
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium">
-            Diseñado para <span className="text-gradient-gold">quienes exigen más</span>
+            Diseñado para negocios <span className="text-gradient-gold">que crecen</span>
           </h2>
         </motion.div>
 

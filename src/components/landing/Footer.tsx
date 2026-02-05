@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const Footer = () => {
   return (
     <footer className="py-16 bg-background border-t border-border/50">
@@ -8,9 +6,9 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-gold flex items-center justify-center">
-              <span className="font-serif text-xl font-bold text-primary-foreground">V</span>
+              <span className="font-serif text-xl font-bold text-primary-foreground">A</span>
             </div>
-            <span className="font-serif text-xl font-medium">Velox</span>
+            <span className="font-serif text-xl font-medium tracking-wide">AXIS</span>
           </div>
 
           {/* Links */}
@@ -28,7 +26,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
-            © 2026 Velox. Todos los derechos reservados.
+            © 2026 AXIS. Todos los derechos reservados.
           </p>
         </div>
       </div>
