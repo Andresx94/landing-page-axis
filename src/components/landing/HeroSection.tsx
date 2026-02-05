@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { PremiumButton } from "@/components/ui/premium-button";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -26,9 +26,8 @@ const HeroSection = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-surface-1"
           >
-            <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm text-muted-foreground">
-              La nueva era del control empresarial
+              Gestión operativa de alto nivel
             </span>
           </motion.div>
 
@@ -39,9 +38,9 @@ const HeroSection = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.1]"
           >
-            Control total.
+            Tu operación.
             <br />
-            <span className="text-gradient-gold">Elegancia absoluta.</span>
+            <span className="text-gradient-gold">Tu marca. Tu sistema.</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -51,8 +50,8 @@ const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed"
           >
-            Simplifica la gestión de tu negocio con una plataforma diseñada 
-            para quienes exigen excelencia en cada detalle.
+            AXIS centraliza ventas, inventario, clientes y operaciones multi-sucursal 
+            en un sistema inteligente que se adapta a tu identidad.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -63,13 +62,23 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
           >
             <PremiumButton size="lg" className="group">
-              Solicitar demo
+              Solicitar demo personalizada
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </PremiumButton>
             <PremiumButton variant="outline" size="lg">
-              Conocer más
+              Conocer la plataforma
             </PremiumButton>
           </motion.div>
+
+          {/* Powered by */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.9, duration: 0.8 }}
+            className="text-sm text-muted-foreground/60 pt-4"
+          >
+            Powered by AXIS
+          </motion.p>
         </motion.div>
 
         {/* Scroll indicator */}

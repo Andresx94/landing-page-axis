@@ -4,23 +4,23 @@ import { Shield, Key, Lock, Eye } from "lucide-react";
 const trustFeatures = [
   {
     icon: Shield,
-    title: "Protección de Datos",
-    description: "Encriptación de grado bancario para toda tu información sensible.",
+    title: "Tus Datos, Tu Control",
+    description: "Información protegida y accesible solo para quien tú decidas.",
   },
   {
     icon: Key,
-    title: "Control de Accesos",
-    description: "Define quién puede ver, editar o administrar cada aspecto de tu sistema.",
+    title: "Roles y Permisos",
+    description: "Define exactamente qué puede ver y hacer cada miembro de tu equipo.",
   },
   {
     icon: Lock,
-    title: "Seguridad Continua",
-    description: "Monitoreo 24/7 y actualizaciones automáticas de seguridad.",
+    title: "Acceso Seguro",
+    description: "Cada usuario con sus credenciales. Sin accesos compartidos ni riesgos.",
   },
   {
     icon: Eye,
-    title: "Auditoría Completa",
-    description: "Registro detallado de cada acción para total trazabilidad.",
+    title: "Visibilidad Total",
+    description: "Historial de movimientos y acciones para una operación transparente.",
   },
 ];
 
@@ -39,13 +39,13 @@ const TrustSection = () => {
           className="text-center mb-20"
         >
           <span className="text-primary text-sm font-medium tracking-wider uppercase mb-4 block">
-            Confianza y seguridad
+            Control y accesos
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium mb-6">
-            Tu información, <span className="text-gradient-gold">siempre protegida</span>
+            Tu negocio, <span className="text-gradient-gold">bajo tu control</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            La seguridad no es una opción, es un pilar fundamental de nuestra plataforma.
+            AXIS te da las herramientas para gestionar quién accede a qué, sin complicaciones técnicas.
           </p>
         </motion.div>
 

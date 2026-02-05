@@ -13,21 +13,21 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-lg bg-gradient-gold flex items-center justify-center">
-            <span className="font-serif text-xl font-bold text-primary-foreground">V</span>
+            <span className="font-serif text-xl font-bold text-primary-foreground">A</span>
           </div>
-          <span className="font-serif text-xl font-medium">Velox</span>
+          <span className="font-serif text-xl font-medium tracking-wide">AXIS</span>
         </div>
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Características
+            Plataforma
           </a>
           <a href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Cómo funciona
           </a>
           <a href="#security" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Seguridad
+            Control
           </a>
         </nav>
 

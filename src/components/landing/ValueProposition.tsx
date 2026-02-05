@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
-import { Gem, Zap, Shield } from "lucide-react";
+import { Layers, GitBranch, Palette } from "lucide-react";
 
 const features = [
   {
-    icon: Gem,
-    title: "Diseño Premium",
-    description: "Una interfaz que refleja la excelencia de tu marca. Cada detalle pensado para transmitir profesionalismo.",
+    icon: Layers,
+    title: "Inventario Inteligente",
+    description: "Entiende el consumo real de tus productos, incluyendo componentes como fragancias, frascos y materiales. No solo descuenta ítems.",
   },
   {
-    icon: Zap,
-    title: "Velocidad Sin Igual",
-    description: "Operaciones instantáneas que te permiten enfocarte en lo importante: hacer crecer tu negocio.",
+    icon: GitBranch,
+    title: "Multi-Sucursal Nativo",
+    description: "Gestiona varias tiendas y un almacén central desde un solo lugar. Diseñado para crecer contigo.",
   },
   {
-    icon: Shield,
-    title: "Control Absoluto",
-    description: "Gestiona accesos, permisos y datos con la precisión que tu empresa merece.",
+    icon: Palette,
+    title: "Tu Marca, Tu Sistema",
+    description: "AXIS se adapta a tu identidad visual. Tu equipo y clientes lo verán como tu propia plataforma.",
   },
 ];
 
@@ -31,10 +31,10 @@ const ValueProposition = () => {
           className="text-center mb-20"
         >
           <h2 className="font-serif text-4xl md:text-5xl font-medium mb-6">
-            Por qué elegir <span className="text-gradient-gold">nuestra solución</span>
+            Inteligencia operativa, <span className="text-gradient-gold">no solo inventario</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            No es solo una herramienta. Es una declaración de principios sobre cómo debe ser la tecnología empresarial.
+            AXIS fue construido para negocios que necesitan claridad y control real sobre sus operaciones diarias.
           </p>
         </motion.div>
 
