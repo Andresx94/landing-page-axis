@@ -71,7 +71,7 @@ const SolutionSection = () => {
               {/* Central element */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-32 rounded-2xl bg-gradient-gold flex items-center justify-center shadow-gold animate-float">
-                  <span className="font-serif text-4xl font-bold text-primary-foreground">A</span>
+                  <img src="/logo.png" alt="AXIS" className="w-20 h-20 object-contain" />
                 </div>
               </div>
 
