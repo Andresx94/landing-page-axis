@@ -65,19 +65,13 @@ const SolutionSection = () => {
           >
             <div className="relative aspect-square max-w-lg mx-auto">
               {/* Decorative elements */}
-              <div className="absolute inset-4 rounded-2xl border border-primary/20 bg-surface-2" />
-              <div className="absolute inset-8 rounded-xl border border-border bg-surface-3 shadow-gold-sm" />
+              <div className="absolute inset-4 rounded-2xl border border-primary/30 bg-gradient-gold-subtle" />
+              <div className="absolute inset-8 rounded-xl border border-primary/40 bg-primary/5 shadow-gold-sm" />
               
               {/* Central element */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-32 h-32 rounded-2xl bg-gradient-gold flex items-center justify-center shadow-gold animate-float">
-                  <img src="/logo.png" alt="AXIS" className="w-20 h-20 object-contain" />
-                </div>
+              <div className="absolute inset-0 flex items-center justify-center p-[10%]">
+                <img src="/landing-page-axis/logo.png" alt="AXIS" className="w-full h-full object-contain" />
               </div>
-
-              {/* Orbiting dots */}
-              <div className="absolute top-1/4 right-1/4 w-3 h-3 rounded-full bg-primary animate-pulse" />
-              <div className="absolute bottom-1/3 left-1/4 w-2 h-2 rounded-full bg-primary/60" />
             </div>
           </motion.div>
         </div>
