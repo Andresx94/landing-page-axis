@@ -5,7 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/landing-page-axis/',
+  // Dominio propio (axis.busti.dev, ver public/CNAME): la página vive en la raíz
+  base: '/',
   server: {
     host: "::",
     port: 8080,

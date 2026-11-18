@@ -70,7 +70,7 @@ const SolutionSection = () => {
               
               {/* Central element */}
               <div className="absolute inset-0 flex items-center justify-center p-[10%]">
-                <img src="/landing-page-axis/logo.png" alt="AXIS" className="w-full h-full object-contain" />
+                <img src={`${import.meta.env.BASE_URL}logo.png`} alt="AXIS" className="w-full h-full object-contain" />
               </div>
             </div>
           </motion.div>
