@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { PremiumButton } from "@/components/ui/premium-button";
 import { ArrowRight } from "lucide-react";
+import { DEMO_URL } from "@/lib/links";
 
 const HeroSection = () => {
   return (
@@ -61,9 +62,11 @@ const HeroSection = () => {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
           >
-            <PremiumButton size="lg" className="group">
-              Solicitar demo personalizada
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+            <PremiumButton size="lg" className="group" asChild>
+              <a href={DEMO_URL}>
+                Probar demo
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </a>
             </PremiumButton>
             <PremiumButton variant="outline" size="lg">
               Conocer la plataforma

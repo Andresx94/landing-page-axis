@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { PremiumButton } from "@/components/ui/premium-button";
+import { DEMO_URL } from "@/lib/links";
 
 const Header = () => {
   return (
@@ -32,8 +33,8 @@ const Header = () => {
         </nav>
 
         {/* CTA */}
-        <PremiumButton size="sm">
-          Solicitar demo
+        <PremiumButton size="sm" asChild>
+          <a href={DEMO_URL}>Probar demo</a>
         </PremiumButton>
       </div>
     </motion.header>
