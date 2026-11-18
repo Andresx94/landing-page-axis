@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { PremiumButton } from "@/components/ui/premium-button";
 import { DEMO_URL } from "@/lib/links";
+import BrandMark from "./BrandMark";
 
 const Header = () => {
   return (
@@ -12,12 +13,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-gold flex items-center justify-center">
-            <span className="font-serif text-xl font-bold text-primary-foreground">A</span>
-          </div>
-          <span className="font-serif text-xl font-medium tracking-wide">AXIS</span>
-        </div>
+        <BrandMark />
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">

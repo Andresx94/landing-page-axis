@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { PremiumButton } from "@/components/ui/premium-button";
 import { ArrowRight } from "lucide-react";
 import { DEMO_URL } from "@/lib/links";
+import Starfield from "./Starfield";
 
 const HeroSection = () => {
   return (
@@ -9,8 +10,7 @@ const HeroSection = () => {
       {/* Background gradient effects */}
       <div className="absolute inset-0 bg-background" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-radial-gold opacity-30 blur-3xl" />
-      <div className="absolute top-20 right-20 w-2 h-2 rounded-full bg-primary animate-pulse-gold" />
-      <div className="absolute bottom-40 left-32 w-1 h-1 rounded-full bg-primary/60" />
+      <Starfield />
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
