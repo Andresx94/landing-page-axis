@@ -2,10 +2,12 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
 const benefits = [
-  "Productos compuestos con consumo automático de componentes",
-  "Sucursales y almacén central sincronizados en tiempo real",
-  "Control de accesos por rol: administrador, ventas, bodega",
-  "Marca blanca que refleja tu identidad, no la nuestra",
+  "Proformas en PDF (con fotos, plazo y validez) que pasan a venta con un clic",
+  "Ventas con adelanto: el cliente paga una parte y el saldo queda registrado",
+  "Números de serie y garantía: buscas una serie y sabes a quién se vendió",
+  "Precios por tipo de cliente: final, instalador o distribuidor",
+  "Vendedores con su propio usuario y permisos",
+  "Tu logo y tu nombre en el sistema, los tickets y las proformas",
 ];
 
 const SolutionSection = () => {
@@ -24,16 +26,16 @@ const SolutionSection = () => {
             transition={{ duration: 0.8 }}
           >
             <span className="text-primary text-sm font-medium tracking-wider uppercase mb-4 block">
-              La solución
+              Más que un punto de venta
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-medium mb-6">
-              Claridad.
+              Todo lo de tu tienda,
               <br />
-              <span className="text-gradient-gold">Control. Propiedad.</span>
+              <span className="text-gradient-gold">en un solo lugar.</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              AXIS integra ventas, inventario, clientes y gastos en una plataforma 
-              que entiende la complejidad de tu operación y la presenta con simplicidad.
+              Además de vender y controlar el stock, AXIS resuelve lo que en una tienda real
+              se complica: cotizaciones, adelantos, garantías y clientes con precios distintos.
             </p>
 
             <ul className="space-y-4">

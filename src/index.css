@@ -4,86 +4,86 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Premium Black & Gold Design System */
+/* AXIS: azul noche (fondo del logo, #12151a) + dorado del logo (#c4a861) */
 
 @layer base {
   :root {
     /* Deep black backgrounds */
-    --background: 0 0% 4%;
-    --foreground: 0 0% 98%;
+    --background: 218 18% 9%;
+    --foreground: 40 30% 96%;
 
     /* Dark surfaces */
-    --card: 0 0% 7%;
-    --card-foreground: 0 0% 98%;
+    --card: 217 20% 12%;
+    --card-foreground: 40 30% 96%;
 
-    --popover: 0 0% 7%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 217 20% 12%;
+    --popover-foreground: 40 30% 96%;
 
     /* Elegant gold primary */
-    --primary: 45 64% 52%;
-    --primary-foreground: 0 0% 4%;
+    --primary: 43 46% 57%;
+    --primary-foreground: 218 18% 9%;
 
     /* Dark secondary */
-    --secondary: 0 0% 9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 217 18% 15%;
+    --secondary-foreground: 40 30% 96%;
 
     /* Muted tones */
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 55%;
+    --muted: 217 16% 18%;
+    --muted-foreground: 215 12% 65%;
 
     /* Accent gold */
-    --accent: 45 64% 52%;
-    --accent-foreground: 0 0% 4%;
+    --accent: 43 46% 57%;
+    --accent-foreground: 218 18% 9%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 40 30% 96%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 45 64% 52%;
+    --border: 217 18% 21%;
+    --input: 217 18% 21%;
+    --ring: 43 46% 57%;
 
     --radius: 0.5rem;
 
     /* Custom premium tokens */
-    --gold: 45 64% 52%;
-    --gold-light: 45 70% 65%;
-    --gold-dark: 45 60% 40%;
-    --surface-1: 0 0% 7%;
-    --surface-2: 0 0% 9%;
-    --surface-3: 0 0% 12%;
+    --gold: 43 46% 57%;
+    --gold-light: 43 55% 68%;
+    --gold-dark: 43 45% 42%;
+    --surface-1: 217 20% 12%;
+    --surface-2: 217 18% 15%;
+    --surface-3: 217 16% 18%;
 
     /* Gradients */
-    --gradient-gold: linear-gradient(135deg, hsl(45 64% 52%), hsl(45 70% 65%));
-    --gradient-gold-subtle: linear-gradient(135deg, hsl(45 64% 52% / 0.1), hsl(45 70% 65% / 0.05));
-    --gradient-dark: linear-gradient(180deg, hsl(0 0% 4%), hsl(0 0% 7%));
-    --gradient-radial-gold: radial-gradient(ellipse at center, hsl(45 64% 52% / 0.15), transparent 70%);
+    --gradient-gold: linear-gradient(135deg, hsl(43 46% 57%), hsl(43 55% 68%));
+    --gradient-gold-subtle: linear-gradient(135deg, hsl(43 46% 57% / 0.1), hsl(43 55% 68% / 0.05));
+    --gradient-dark: linear-gradient(180deg, hsl(218 18% 9%), hsl(217 20% 12%));
+    --gradient-radial-gold: radial-gradient(ellipse at center, hsl(43 46% 57% / 0.15), transparent 70%);
 
     /* Shadows */
-    --shadow-gold: 0 0 40px hsl(45 64% 52% / 0.15);
-    --shadow-gold-sm: 0 0 20px hsl(45 64% 52% / 0.1);
+    --shadow-gold: 0 0 40px hsl(43 46% 57% / 0.15);
+    --shadow-gold-sm: 0 0 20px hsl(43 46% 57% / 0.1);
     --shadow-dark: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
   }
 
   .dark {
-    --background: 0 0% 4%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 7%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 7%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 45 64% 52%;
-    --primary-foreground: 0 0% 4%;
-    --secondary: 0 0% 9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 55%;
-    --accent: 45 64% 52%;
-    --accent-foreground: 0 0% 4%;
+    --background: 218 18% 9%;
+    --foreground: 40 30% 96%;
+    --card: 217 20% 12%;
+    --card-foreground: 40 30% 96%;
+    --popover: 217 20% 12%;
+    --popover-foreground: 40 30% 96%;
+    --primary: 43 46% 57%;
+    --primary-foreground: 218 18% 9%;
+    --secondary: 217 18% 15%;
+    --secondary-foreground: 40 30% 96%;
+    --muted: 217 16% 18%;
+    --muted-foreground: 215 12% 65%;
+    --accent: 43 46% 57%;
+    --accent-foreground: 218 18% 9%;
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 45 64% 52%;
+    --destructive-foreground: 40 30% 96%;
+    --border: 217 18% 21%;
+    --input: 217 18% 21%;
+    --ring: 43 46% 57%;
   }
 }
 
@@ -122,34 +122,34 @@
   }
 
   .text-gradient-gold {
-    background: linear-gradient(135deg, hsl(45 64% 52%), hsl(45 70% 65%));
+    background: linear-gradient(135deg, hsl(43 46% 57%), hsl(43 55% 68%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .bg-gradient-gold {
-    background: linear-gradient(135deg, hsl(45 64% 52%), hsl(45 70% 65%));
+    background: linear-gradient(135deg, hsl(43 46% 57%), hsl(43 55% 68%));
   }
 
   .bg-gradient-gold-subtle {
-    background: linear-gradient(135deg, hsl(45 64% 52% / 0.1), hsl(45 70% 65% / 0.05));
+    background: linear-gradient(135deg, hsl(43 46% 57% / 0.1), hsl(43 55% 68% / 0.05));
   }
 
   .border-gradient-gold {
-    border-image: linear-gradient(135deg, hsl(45 64% 52%), hsl(45 70% 65%)) 1;
+    border-image: linear-gradient(135deg, hsl(43 46% 57%), hsl(43 55% 68%)) 1;
   }
 
   .shadow-gold {
-    box-shadow: 0 0 40px hsl(45 64% 52% / 0.15);
+    box-shadow: 0 0 40px hsl(43 46% 57% / 0.15);
   }
 
   .shadow-gold-sm {
-    box-shadow: 0 0 20px hsl(45 64% 52% / 0.1);
+    box-shadow: 0 0 20px hsl(43 46% 57% / 0.1);
   }
 
   .glow-gold {
-    filter: drop-shadow(0 0 20px hsl(45 64% 52% / 0.3));
+    filter: drop-shadow(0 0 20px hsl(43 46% 57% / 0.3));
   }
 }
 
@@ -157,8 +157,8 @@
 .star {
   position: absolute;
   border-radius: 9999px;
-  background: hsl(45 70% 65%);
-  box-shadow: 0 0 6px hsl(45 64% 52% / 0.8);
+  background: hsl(43 55% 68%);
+  box-shadow: 0 0 6px hsl(43 46% 57% / 0.8);
   animation-name: star-twinkle, star-drift;
   animation-timing-function: ease-in-out, ease-in-out;
   animation-iteration-count: infinite, infinite;
@@ -167,15 +167,37 @@
 }
 
 @keyframes star-twinkle {
-  0%, 100% { filter: brightness(0.6); transform: scale(0.8); }
-  50% { filter: brightness(1.4); transform: scale(1.2); }
+  0%, 100% { filter: brightness(0.5); transform: scale(0.7); }
+  50% { filter: brightness(1.6); transform: scale(1.3); }
 }
 
+/* Cada estrella flota en su propia dirección (--dx, --dy desde Starfield.tsx) */
 @keyframes star-drift {
   from { translate: 0 0; }
-  to { translate: 12px -70px; }
+  to { translate: var(--dx, 12px) var(--dy, -70px); }
+}
+
+/* Estrella fugaz: cruza en diagonal en una fracción del ciclo y luego espera invisible */
+.shooting-star {
+  position: absolute;
+  width: 130px;
+  height: 1.5px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, transparent, hsl(43 55% 68% / 0.9));
+  rotate: 155deg;
+  opacity: 0;
+  animation-name: star-shoot;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes star-shoot {
+  0% { translate: 0 0; opacity: 0; }
+  1% { opacity: 1; }
+  9% { translate: -460px 215px; opacity: 0; }
+  100% { translate: -460px 215px; opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .star { animation: none; }
+  .star, .shooting-star { animation: none; }
 }

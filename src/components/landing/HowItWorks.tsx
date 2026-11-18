@@ -3,24 +3,24 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "01",
-    title: "Conecta tu negocio",
-    description: "Configura tus productos, sucursales y usuarios. Sin implementaciones largas ni capacitaciones extensas.",
+    title: "Nos cuentas cómo vendes",
+    description: "Por unidad o por peso, una tienda o varias, con o sin internet. Con eso armamos la propuesta y el precio.",
   },
   {
     number: "02",
-    title: "Personaliza tu sistema",
-    description: "Ajusta roles, permisos y la identidad visual. AXIS se adapta a cómo trabajas, no al revés.",
+    title: "Armamos tu AXIS",
+    description: "Lo instalamos en tu computadora o activamos tu acceso en la nube, con tu logo, tu impresora de tickets y tus usuarios.",
   },
   {
     number: "03",
-    title: "Opera con claridad",
-    description: "Ventas, inventario y operaciones centralizadas. Información precisa para decisiones informadas.",
+    title: "Cargas tus productos y vendes",
+    description: "Con el lector de código de barras cargas tu mercadería en minutos y empiezas a vender el mismo día.",
   },
 ];
 
 const HowItWorks = () => {
   return (
-    <section className="py-32 bg-background">
+    <section id="como-funciona" className="py-32 bg-background scroll-mt-20">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -33,7 +33,7 @@ const HowItWorks = () => {
             Cómo funciona
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium">
-            De una tienda a varias, <span className="text-gradient-gold">sin complicaciones</span>
+            Listo para vender <span className="text-gradient-gold">en un día</span>
           </h2>
         </motion.div>
 

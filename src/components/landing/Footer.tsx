@@ -1,3 +1,5 @@
+import { MessageCircle } from "lucide-react";
+import { DEMO_URL, WHATSAPP_INFO } from "@/lib/links";
 import BrandMark from "./BrandMark";
 
 const Footer = () => {
@@ -10,14 +12,17 @@ const Footer = () => {
 
           {/* Links */}
           <nav className="flex items-center gap-8">
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              Términos
+            <a href={DEMO_URL} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              Demo
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              Privacidad
-            </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              Contacto
+            <a
+              href={WHATSAPP_INFO}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              <MessageCircle className="w-4 h-4" />
+              WhatsApp 79363675
             </a>
           </nav>
 

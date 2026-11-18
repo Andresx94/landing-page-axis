@@ -1,6 +1,7 @@
 import Header from "@/components/landing/Header";
 import HeroSection from "@/components/landing/HeroSection";
 import ValueProposition from "@/components/landing/ValueProposition";
+import BuildYourAxis from "@/components/landing/BuildYourAxis";
 import ProblemSection from "@/components/landing/ProblemSection";
 import SolutionSection from "@/components/landing/SolutionSection";
 import HowItWorks from "@/components/landing/HowItWorks";
@@ -16,6 +17,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <ValueProposition />
+        <BuildYourAxis />
         <ProblemSection />
         <SolutionSection />
         <HowItWorks />

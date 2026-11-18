@@ -1,32 +1,32 @@
 import { motion } from "framer-motion";
-import { Shield, Key, Lock, Eye } from "lucide-react";
+import { WifiOff, Smartphone, DatabaseBackup, UserCheck } from "lucide-react";
 
 const trustFeatures = [
   {
-    icon: Shield,
-    title: "Tus Datos, Tu Control",
-    description: "Información protegida y accesible solo para quien tú decidas.",
+    icon: WifiOff,
+    title: "En tu PC, sin internet",
+    description: "Vendes aunque se corte el internet. Tus datos se quedan en tu computadora.",
   },
   {
-    icon: Key,
-    title: "Roles y Permisos",
-    description: "Define exactamente qué puede ver y hacer cada miembro de tu equipo.",
+    icon: Smartphone,
+    title: "En la nube, desde el celular",
+    description: "Todas tus sucursales en un solo lugar, y tus ventas a mano estés donde estés.",
   },
   {
-    icon: Lock,
-    title: "Acceso Seguro",
-    description: "Cada usuario con sus credenciales. Sin accesos compartidos ni riesgos.",
+    icon: DatabaseBackup,
+    title: "Respaldo automático",
+    description: "Una copia de seguridad cada día, y puedes exportar tus ventas y productos cuando quieras.",
   },
   {
-    icon: Eye,
-    title: "Visibilidad Total",
-    description: "Historial de movimientos y acciones para una operación transparente.",
+    icon: UserCheck,
+    title: "Permisos por usuario",
+    description: "Cada vendedor con su usuario: vende y carga, pero no edita ni borra. Cada venta queda con su nombre.",
   },
 ];
 
 const TrustSection = () => {
   return (
-    <section className="py-32 bg-background relative overflow-hidden">
+    <section id="tus-datos" className="py-32 bg-background relative overflow-hidden scroll-mt-20">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl" />
 
@@ -39,13 +39,13 @@ const TrustSection = () => {
           className="text-center mb-20"
         >
           <span className="text-primary text-sm font-medium tracking-wider uppercase mb-4 block">
-            Control y accesos
+            Tus datos
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium mb-6">
-            Tu negocio, <span className="text-gradient-gold">bajo tu control</span>
+            Tus datos, <span className="text-gradient-gold">donde tú decidas</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            AXIS te da las herramientas para gestionar quién accede a qué, sin complicaciones técnicas.
+            En tu computadora o en la nube: tus ventas, clientes y productos siempre protegidos y bajo tu control.
           </p>
         </motion.div>
 

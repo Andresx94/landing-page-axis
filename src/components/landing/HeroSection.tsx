@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { PremiumButton } from "@/components/ui/premium-button";
-import { ArrowRight } from "lucide-react";
-import { DEMO_URL } from "@/lib/links";
+import { ArrowRight, MessageCircle, Sparkles } from "lucide-react";
+import { DEMO_URL, WHATSAPP_INFO } from "@/lib/links";
 import Starfield from "./Starfield";
 
 const HeroSection = () => {
@@ -27,8 +27,9 @@ const HeroSection = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-surface-1"
           >
+            <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm text-muted-foreground">
-              Gestión operativa de alto nivel
+              Sin internet o en la nube · Pago único o mensual
             </span>
           </motion.div>
 
@@ -39,9 +40,9 @@ const HeroSection = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.1]"
           >
-            Tu operación.
+            Vende, controla tu stock
             <br />
-            <span className="text-gradient-gold">Tu marca. Tu sistema.</span>
+            <span className="text-gradient-gold">y sabe cuánto ganas.</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -51,8 +52,8 @@ const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed"
           >
-            AXIS centraliza ventas, inventario, clientes y operaciones multi-sucursal 
-            en un sistema inteligente que se adapta a tu identidad.
+            AXIS se arma a la medida de tu negocio: vende por unidad, por kilo o por litro,
+            en una computadora sin internet o con todas tus sucursales conectadas.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -68,8 +69,11 @@ const HeroSection = () => {
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
             </PremiumButton>
-            <PremiumButton variant="outline" size="lg">
-              Conocer la plataforma
+            <PremiumButton variant="outline" size="lg" asChild>
+              <a href={WHATSAPP_INFO} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-5 h-5" />
+                Hablar por WhatsApp
+              </a>
             </PremiumButton>
           </motion.div>
 
@@ -80,7 +84,7 @@ const HeroSection = () => {
             transition={{ delay: 0.9, duration: 0.8 }}
             className="text-sm text-muted-foreground/60 pt-4"
           >
-            Powered by AXIS
+            La demo abre en tu navegador, con datos de ejemplo. Sin instalar nada.
           </motion.p>
         </motion.div>
       </div>

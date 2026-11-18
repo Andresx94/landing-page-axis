@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
-import { X, AlertTriangle, Clock } from "lucide-react";
+import { NotebookPen, AlertTriangle, UserX } from "lucide-react";
 
 const problems = [
   {
-    icon: X,
-    title: "Sistemas genéricos",
-    description: "Plataformas rígidas que no reflejan tu marca ni entienden cómo opera tu negocio realmente.",
+    icon: NotebookPen,
+    title: "Cuaderno y Excel",
+    description: "Ventas anotadas a mano, cuentas al cierre del día y números que nunca terminan de cerrar.",
   },
   {
     icon: AlertTriangle,
-    title: "Inventario inexacto",
-    description: "Herramientas que descuentan ítems sin considerar componentes, fórmulas o consumo real.",
+    title: "Stock que no cuadra",
+    description: "No sabes cuánto te queda de cada producto, cuánto te costó ni qué tienes que volver a comprar.",
   },
   {
-    icon: Clock,
-    title: "Crecimiento limitado",
-    description: "Soluciones que funcionan para una tienda pero colapsan cuando abres la segunda.",
+    icon: UserX,
+    title: "Nadie sabe quién vendió qué",
+    description: "No queda claro qué vendió cada vendedor, a quién se le dio garantía ni quién te debe un saldo.",
   },
 ];
 
@@ -44,8 +44,8 @@ const ProblemSection = () => {
             El problema
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-medium mb-6">
-            La gestión operativa <br className="hidden md:block" />
-            <span className="text-muted-foreground">no debería ser así</span>
+            ¿Tu tienda todavía <br className="hidden md:block" />
+            <span className="text-muted-foreground">funciona así?</span>
           </h2>
         </motion.div>
 

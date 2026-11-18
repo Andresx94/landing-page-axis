@@ -17,15 +17,16 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Plataforma
-          </a>
-          <a href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Cómo funciona
-          </a>
-          <a href="#security" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Control
-          </a>
+          {[
+            ["#funciones", "Funciones"],
+            ["#arma-tu-axis", "Arma tu AXIS"],
+            ["#para-quien", "Para quién"],
+            ["#como-funciona", "Cómo funciona"],
+          ].map(([href, label]) => (
+            <a key={href} href={href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              {label}
+            </a>
+          ))}
         </nav>
 
         {/* CTA */}
